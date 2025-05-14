@@ -1,0 +1,1485 @@
+[
+    {
+        "name": "MoveForward",
+        "trigger": "moveforward",
+        "steps": [
+            "%0,32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveForwardAlias1",
+        "trigger": "up",
+        "steps": [
+            "%0,32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveForwardAlias2",
+        "trigger": "forward",
+        "steps": [
+            "%0,32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveForwardAlias3",
+        "trigger": "go",
+        "steps": [
+            "%0,32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveLeft",
+        "trigger": "moveleft",
+        "steps": [
+            "%-32767,0",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveLeftAlias1",
+        "trigger": "left",
+        "steps": [
+            "%-32767,0",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveLeftAlias2",
+        "trigger": "strafeleft",
+        "steps": [
+            "%-32767,0",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveRight",
+        "trigger": "moveright",
+        "steps": [
+            "%32767,0",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveRightAlias1",
+        "trigger": "right",
+        "steps": [
+            "%32767,0",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveRightAlias2",
+        "trigger": "straferight",
+        "steps": [
+            "%32767,0",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveBackward",
+        "trigger": "movebackward",
+        "steps": [
+            "%0,-32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveBackwardAlias1",
+        "trigger": "down",
+        "steps": [
+            "%0,-32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveBackwardAlias2",
+        "trigger": "back",
+        "steps": [
+            "%0,-32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "MoveBackwardAlias3",
+        "trigger": "retreat",
+        "steps": [
+            "%0,-32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "StaminaSafeSprint",
+        "trigger": "staminasafesprint",
+        "steps": [
+            "Hold:B",
+            "%0,32767",
+            "Wait:400",
+            "%0,0",
+            "Release:B"
+        ]
+    },
+    {
+        "name": "StaminaSafeSprintAlias1",
+        "trigger": "sprint",
+        "steps": [
+            "Hold:B",
+            "%0,32767",
+            "Wait:400",
+            "%0,0",
+            "Release:B"
+        ]
+    },
+    {
+        "name": "StaminaSafeSprintAlias2",
+        "trigger": "run",
+        "steps": [
+            "Hold:B",
+            "%0,32767",
+            "Wait:400",
+            "%0,0",
+            "Release:B"
+        ]
+    },
+    {
+        "name": "StaminaSafeSprintAlias3",
+        "trigger": "dash",
+        "steps": [
+            "Hold:B",
+            "%0,32767",
+            "Wait:400",
+            "%0,0",
+            "Release:B"
+        ]
+    },
+    {
+        "name": "Jump",
+        "trigger": "jump",
+        "steps": [
+            "Button:X",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "JumpAlias1",
+        "trigger": "hop",
+        "steps": [
+            "Button:X",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "JumpAlias2",
+        "trigger": "leap",
+        "steps": [
+            "Button:X",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "Climb",
+        "trigger": "climb",
+        "steps": [
+            "%0,32767",
+            "Button:X",
+            "Wait:40",
+            "%0,32767",
+            "Wait:500",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "ClimbAlias1",
+        "trigger": "scale",
+        "steps": [
+            "%0,32767",
+            "Button:X",
+            "Wait:40",
+            "%0,32767",
+            "Wait:500",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "ClimbAlias2",
+        "trigger": "ascend",
+        "steps": [
+            "%0,32767",
+            "Button:X",
+            "Wait:40",
+            "%0,32767",
+            "Wait:500",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "Crouch",
+        "trigger": "crouch",
+        "steps": [
+            "Button:LSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "CrouchAlias1",
+        "trigger": "sneak",
+        "steps": [
+            "Button:LSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "CrouchAlias2",
+        "trigger": "duck",
+        "steps": [
+            "Button:LSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "LookUp",
+        "trigger": "lookup",
+        "steps": [
+            "&0,32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookUpAlias1",
+        "trigger": "looksky",
+        "steps": [
+            "&0,32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookUpAlias2",
+        "trigger": "tiltup",
+        "steps": [
+            "&0,32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookRight",
+        "trigger": "lookright",
+        "steps": [
+            "&32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookRightAlias1",
+        "trigger": "lookrightside",
+        "steps": [
+            "&32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookRightAlias2",
+        "trigger": "panright",
+        "steps": [
+            "&32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookDown",
+        "trigger": "lookdown",
+        "steps": [
+            "&0,-32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookDownAlias1",
+        "trigger": "lookground",
+        "steps": [
+            "&0,-32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookDownAlias2",
+        "trigger": "tiltdown",
+        "steps": [
+            "&0,-32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookLeft",
+        "trigger": "lookleft",
+        "steps": [
+            "&-32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookLeftAlias1",
+        "trigger": "lookleftside",
+        "steps": [
+            "&-32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "LookLeftAlias2",
+        "trigger": "panleft",
+        "steps": [
+            "&-32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "ResetCamera",
+        "trigger": "resetcamera",
+        "steps": [
+            "Button:ZL",
+            "Wait:40",
+            "Button:ZL",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "ResetCameraAlias1",
+        "trigger": "center",
+        "steps": [
+            "Button:ZL",
+            "Wait:40",
+            "Button:ZL",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "ResetCameraAlias2",
+        "trigger": "recenter",
+        "steps": [
+            "Button:ZL",
+            "Wait:40",
+            "Button:ZL",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "Attack",
+        "trigger": "attack",
+        "steps": [
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "AttackAlias1",
+        "trigger": "hit",
+        "steps": [
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "AttackAlias2",
+        "trigger": "strike",
+        "steps": [
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "ChargeAttack",
+        "trigger": "chargeattack",
+        "steps": [
+            "Hold:Y",
+            "Wait:600",
+            "Release:Y"
+        ]
+    },
+    {
+        "name": "JumpAttack",
+        "trigger": "jumpattack",
+        "steps": [
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "JumpAttackAlias1",
+        "trigger": "jumphit",
+        "steps": [
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "JumpAttackAlias2",
+        "trigger": "leapattack",
+        "steps": [
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "QuickCombo",
+        "trigger": "quickcombo",
+        "steps": [
+            "Button:Y",
+            "Wait:40",
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "QuickComboAlias1",
+        "trigger": "combo",
+        "steps": [
+            "Button:Y",
+            "Wait:40",
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "QuickComboAlias2",
+        "trigger": "chain",
+        "steps": [
+            "Button:Y",
+            "Wait:40",
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "BowCombo",
+        "trigger": "bowcombo",
+        "steps": [
+            "Hold:ZR",
+            "Wait:200",
+            "Hold:DUP",
+            "Wait:200",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Release:DUP",
+            "&32767,0",
+            "Wait:150",
+            "&0,0",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "MultiFlurryRush",
+        "trigger": "multiflurryrush",
+        "steps": [
+            "Button:Y",
+            "Wait:20",
+            "Button:Y",
+            "Wait:20",
+            "Button:Y",
+            "Wait:20",
+            "Button:Y",
+            "Wait:20",
+            "Button:Y",
+            "Wait:20"
+        ]
+    },
+    {
+        "name": "LockOn",
+        "trigger": "lockon",
+        "steps": [
+            "Hold:ZL",
+            "Wait:200",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "LockOnAlias1",
+        "trigger": "target",
+        "steps": [
+            "Hold:ZL",
+            "Wait:200",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "LockOnAlias2",
+        "trigger": "focus",
+        "steps": [
+            "Hold:ZL",
+            "Wait:200",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "PerfectGuard",
+        "trigger": "perfectguard",
+        "steps": [
+            "Hold:ZL",
+            "Wait:80",
+            "Button:A",
+            "Wait:40",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "PerfectDodgeSide",
+        "trigger": "perfectdodgeside",
+        "steps": [
+            "Hold:ZL",
+            "%-32767,0",
+            "Button:X",
+            "Wait:40",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "PerfectDodgeBack",
+        "trigger": "perfectdodgeback",
+        "steps": [
+            "Hold:ZL",
+            "%0,-32767",
+            "Button:X",
+            "Wait:40",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "FlurryRush",
+        "trigger": "flurryrush",
+        "steps": [
+            "Button:Y",
+            "Wait:20",
+            "Button:Y",
+            "Wait:20",
+            "Button:Y",
+            "Wait:20"
+        ]
+    },
+    {
+        "name": "ThrowWeapon",
+        "trigger": "throwweapon",
+        "steps": [
+            "Hold:R",
+            "Wait:150",
+            "Release:R"
+        ]
+    },
+    {
+        "name": "DrawBow",
+        "trigger": "drawbow",
+        "steps": [
+            "Hold:ZR",
+            "Wait:200"
+        ]
+    },
+    {
+        "name": "DrawBowAlias1",
+        "trigger": "readybow",
+        "steps": [
+            "Hold:ZR",
+            "Wait:200"
+        ]
+    },
+    {
+        "name": "DrawBowAlias2",
+        "trigger": "aim",
+        "steps": [
+            "Hold:ZR",
+            "Wait:200"
+        ]
+    },
+    {
+        "name": "AimBowRight",
+        "trigger": "aimbowright",
+        "steps": [
+            "&32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "AimBowLeft",
+        "trigger": "aimbowleft",
+        "steps": [
+            "&-32767,0",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "AimBowUp",
+        "trigger": "aimbowup",
+        "steps": [
+            "&0,32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "AimBowDown",
+        "trigger": "aimbowdown",
+        "steps": [
+            "&0,-32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "ShootArrow",
+        "trigger": "shootarrow",
+        "steps": [
+            "Hold:ZR",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "ShootArrowAlias1",
+        "trigger": "fire",
+        "steps": [
+            "Hold:ZR",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "ShootArrowAlias2",
+        "trigger": "shoot",
+        "steps": [
+            "Hold:ZR",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "FuseArrow",
+        "trigger": "fusearrow",
+        "steps": [
+            "Hold:ZR",
+            "Hold:DUP",
+            "Wait:200",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Release:DUP",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "FuseArrowAlias1",
+        "trigger": "fuse",
+        "steps": [
+            "Hold:ZR",
+            "Hold:DUP",
+            "Wait:200",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Release:DUP",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "FuseArrowAlias2",
+        "trigger": "enhancearrow",
+        "steps": [
+            "Hold:ZR",
+            "Hold:DUP",
+            "Wait:200",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Release:DUP",
+            "Wait:150",
+            "Release:ZR"
+        ]
+    },
+    {
+        "name": "UseParaglider",
+        "trigger": "useparaglider",
+        "steps": [
+            "Button:X",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "UseParagliderAlias1",
+        "trigger": "glide",
+        "steps": [
+            "Button:X",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "UseParagliderAlias2",
+        "trigger": "paraglide",
+        "steps": [
+            "Button:X",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "ShieldSurf",
+        "trigger": "shieldsurf",
+        "steps": [
+            "Hold:ZL",
+            "Button:X",
+            "Wait:20",
+            "Button:A",
+            "Wait:250",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "ShieldSurfAlias1",
+        "trigger": "surf",
+        "steps": [
+            "Hold:ZL",
+            "Button:X",
+            "Wait:20",
+            "Button:A",
+            "Wait:250",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "ShieldSurfAlias2",
+        "trigger": "slideshield",
+        "steps": [
+            "Hold:ZL",
+            "Button:X",
+            "Wait:20",
+            "Button:A",
+            "Wait:250",
+            "Release:ZL"
+        ]
+    },
+    {
+        "name": "Interact",
+        "trigger": "interact",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "InteractAlias1",
+        "trigger": "use",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "InteractAlias2",
+        "trigger": "talk",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "UltrahandGrab",
+        "trigger": "ultrahandgrab",
+        "steps": [
+            "Hold:L",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "UltrahandGrabAlias1",
+        "trigger": "grab",
+        "steps": [
+            "Hold:L",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "UltrahandGrabAlias2",
+        "trigger": "lift",
+        "steps": [
+            "Hold:L",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "UltrahandMoveForward",
+        "trigger": "ultrahandmoveforward",
+        "steps": [
+            "%0,32767",
+            "Wait:250",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "UltrahandAttach",
+        "trigger": "ultrahandattach",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "UltrahandRaft",
+        "trigger": "ultrahandraft",
+        "steps": [
+            "Hold:L",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150",
+            "%0,32767",
+            "Wait:250",
+            "Button:A",
+            "Wait:40",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150",
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "UltrahandHoverbike",
+        "trigger": "ultrahandhoverbike",
+        "steps": [
+            "Hold:L",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150",
+            "%0,32767",
+            "Wait:250",
+            "Button:A",
+            "Wait:40",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150",
+            "&32767,0",
+            "Wait:100",
+            "&0,0",
+            "Button:A",
+            "Wait:40",
+            "Button:DUP",
+            "Wait:40",
+            "Button:A",
+            "Wait:150",
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "FuseWeapon",
+        "trigger": "fuseweapon",
+        "steps": [
+            "Hold:L",
+            "Button:DRIGHT",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Button:Y"
+        ]
+    },
+    {
+        "name": "FuseBombFlower",
+        "trigger": "fusebombflower",
+        "steps": [
+            "Hold:L",
+            "Button:DRIGHT",
+            "Wait:40",
+            "Hold:DUP",
+            "Wait:200",
+            "%-32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Release:DUP",
+            "Button:Y"
+        ]
+    },
+    {
+        "name": "Ascend",
+        "trigger": "ascend",
+        "steps": [
+            "Hold:L",
+            "Button:DDOWN",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "AscendAlias1",
+        "trigger": "rise",
+        "steps": [
+            "Hold:L",
+            "Button:DDOWN",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "AscendAlias2",
+        "trigger": "teleportup",
+        "steps": [
+            "Hold:L",
+            "Button:DDOWN",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "Recall",
+        "trigger": "recall",
+        "steps": [
+            "Hold:L",
+            "Button:DLEFT",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "RecallLoop",
+        "trigger": "recallloop",
+        "steps": [
+            "Hold:L",
+            "Button:DLEFT",
+            "Wait:40",
+            "Button:A",
+            "Wait:150",
+            "Wait:1000",
+            "Button:DLEFT",
+            "Wait:40",
+            "Button:A",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "OpenMenu",
+        "trigger": "openmenu",
+        "steps": [
+            "Button:PLUS",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "OpenMap",
+        "trigger": "openmap",
+        "steps": [
+            "Button:MINUS",
+            "Wait:150"
+        ]
+    },
+    {
+        "name": "SelectItem",
+        "trigger": "selectitem",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "Cancel",
+        "trigger": "cancel",
+        "steps": [
+            "Button:B",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "QuickSelectMaterial",
+        "trigger": "quickselectmaterial",
+        "steps": [
+            "Hold:DUP",
+            "Wait:150",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Release:DUP"
+        ]
+    },
+    {
+        "name": "QuickSwapWeapon",
+        "trigger": "quickswapweapon",
+        "steps": [
+            "Button:PLUS",
+            "Wait:150",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Button:B"
+        ]
+    },
+    {
+        "name": "QuickSwapShield",
+        "trigger": "quickswapshield",
+        "steps": [
+            "Button:PLUS",
+            "Wait:150",
+            "%0,-32767",
+            "Wait:40",
+            "%32767,0",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Button:B"
+        ]
+    },
+    {
+        "name": "QuickSave",
+        "trigger": "quicksave",
+        "steps": [
+            "Button:PLUS",
+            "Wait:150",
+            "Button:R",
+            "Wait:40",
+            "Button:R",
+            "Wait:40",
+            "Button:A",
+            "Wait:40",
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "ZoomMap",
+        "trigger": "zoommap",
+        "steps": [
+            "Button:MINUS",
+            "Wait:150",
+            "Button:RSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "ScrollTabRight",
+        "trigger": "scrolltabright",
+        "steps": [
+            "Button:R",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "JumpSlash",
+        "trigger": "jumpslash",
+        "steps": [
+            "Button:X",
+            "Wait:20",
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "ThrowMaterial",
+        "trigger": "throwmaterial",
+        "steps": [
+            "Hold:DUP",
+            "Wait:150",
+            "Button:A",
+            "Wait:40",
+            "Hold:R",
+            "Wait:150",
+            "Release:R",
+            "Release:DUP"
+        ]
+    },
+    {
+        "name": "AutoClimb",
+        "trigger": "autoclimb",
+        "steps": [
+            "%0,32767",
+            "Button:X",
+            "Wait:40",
+            "%0,32767",
+            "Wait:500",
+            "Button:X",
+            "Wait:40",
+            "Wait:200",
+            "%0,32767",
+            "Wait:500",
+            "%0,0"
+        ]
+    },
+    {
+        "name": "GlideLoop",
+        "trigger": "glideloop",
+        "steps": [
+            "Button:X",
+            "Wait:150",
+            "&0,32767",
+            "Wait:150",
+            "&0,0",
+            "Wait:1000",
+            "&0,-32767",
+            "Wait:150",
+            "&0,0"
+        ]
+    },
+    {
+        "name": "PressA",
+        "trigger": "a",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressAAlias1",
+        "trigger": "confirm",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressAAlias2",
+        "trigger": "select",
+        "steps": [
+            "Button:A",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressB",
+        "trigger": "b",
+        "steps": [
+            "Button:B",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressBAlias1",
+        "trigger": "back",
+        "steps": [
+            "Button:B",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressBAlias2",
+        "trigger": "cancel",
+        "steps": [
+            "Button:B",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressX",
+        "trigger": "x",
+        "steps": [
+            "Button:X",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressXAlias1",
+        "trigger": "jump",
+        "steps": [
+            "Button:X",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressXAlias2",
+        "trigger": "leap",
+        "steps": [
+            "Button:X",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressY",
+        "trigger": "y",
+        "steps": [
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressYAlias1",
+        "trigger": "attack",
+        "steps": [
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressYAlias2",
+        "trigger": "hit",
+        "steps": [
+            "Button:Y",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressL",
+        "trigger": "l",
+        "steps": [
+            "Button:L",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressLAlias1",
+        "trigger": "leftshoulder",
+        "steps": [
+            "Button:L",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressLAlias2",
+        "trigger": "lb",
+        "steps": [
+            "Button:L",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressR",
+        "trigger": "r",
+        "steps": [
+            "Button:R",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressRAlias1",
+        "trigger": "rightshoulder",
+        "steps": [
+            "Button:R",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressRAlias2",
+        "trigger": "rb",
+        "steps": [
+            "Button:R",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressZL",
+        "trigger": "zl",
+        "steps": [
+            "Button:ZL",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressZLAlias1",
+        "trigger": "lefttrigger",
+        "steps": [
+            "Button:ZL",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressZLAlias2",
+        "trigger": "lt",
+        "steps": [
+            "Button:ZL",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressZR",
+        "trigger": "zr",
+        "steps": [
+            "Button:ZR",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressZRAlias1",
+        "trigger": "righttrigger",
+        "steps": [
+            "Button:ZR",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressZRAlias2",
+        "trigger": "rt",
+        "steps": [
+            "Button:ZR",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressPlus",
+        "trigger": "plus",
+        "steps": [
+            "Button:PLUS",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressPlusAlias1",
+        "trigger": "start",
+        "steps": [
+            "Button:PLUS",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressPlusAlias2",
+        "trigger": "menu",
+        "steps": [
+            "Button:PLUS",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressMinus",
+        "trigger": "minus",
+        "steps": [
+            "Button:MINUS",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressMinusAlias1",
+        "trigger": "selectminus",
+        "steps": [
+            "Button:MINUS",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressMinusAlias2",
+        "trigger": "map",
+        "steps": [
+            "Button:MINUS",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressLStick",
+        "trigger": "lstk",
+        "steps": [
+            "Button:LSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressLStickAlias1",
+        "trigger": "l3",
+        "steps": [
+            "Button:LSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressLStickAlias2",
+        "trigger": "pressleftstick",
+        "steps": [
+            "Button:LSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressRStick",
+        "trigger": "rstk",
+        "steps": [
+            "Button:RSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressRStickAlias1",
+        "trigger": "r3",
+        "steps": [
+            "Button:RSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "PressRStickAlias2",
+        "trigger": "pressrightstick",
+        "steps": [
+            "Button:RSTICK",
+            "Wait:40"
+        ]
+    },
+    {
+        "name": "clipit",
+        "trigger": "clipit",
+        "steps": [
+            "Hold:CAPTURE",
+            "W3000",
+            "Release:CAPTURE"
+        ]
+    }
+]
