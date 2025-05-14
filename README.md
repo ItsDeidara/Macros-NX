@@ -1,7 +1,5 @@
 # Macros-NX: Macro Builder for Nintendo Switch
 
-![Screenshot](image.png)
-
 ## Overview
 
 **Macros-NX** is a Python-based GUI tool for building, editing, and running controller macros on a Nintendo Switch via [sys-botbase](https://github.com/olliz0r/sys-botbase). It allows you to automate button presses, stick movements, and complex input sequences
